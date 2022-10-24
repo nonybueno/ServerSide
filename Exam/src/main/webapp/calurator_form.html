@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator Web app</title>
+</head>
+<body>
+    <h3>Calculator</h3>
+    <hr/>
+    <form method="post" action="ResultCal">
+        Enter number1: <input type="number" name="num1" required> <br>
+        <label for="selectOp">Choose method:</label>
+        <select name="operator" id="selectOp">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="time">*</option>
+            <option value="divide">/</option>
+        </select> <br>
+        Enter number2: <input type="number" name="num2" required> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
